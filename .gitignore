@@ -1,0 +1,22 @@
+# Lokale Python-Umgebung und Caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Lokale Daten und Quellen (keine automatische Veröffentlichung)
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+*.pdf
+*.acsm
+/tmp/
+
+# Lokale Konfiguration und temporäre Dateien
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
